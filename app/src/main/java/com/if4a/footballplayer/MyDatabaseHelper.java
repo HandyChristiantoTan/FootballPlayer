@@ -29,7 +29,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                 FIELD_NAMA + " VARCHAR(50), " +
                 FIELD_NOMOR + " VARCHAR(2), " +
                 FIELD_KLUB + " VARCHAR(50), " +
-                ")";
+                ");";
         db.execSQL(query);
     }
 
