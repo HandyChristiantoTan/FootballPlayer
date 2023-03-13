@@ -29,11 +29,8 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
                 FIELD_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 FIELD_NAMA + " VARCHAR(50), " +
                 FIELD_NOMOR + " VARCHAR(2), " +
-<<<<<<< HEAD
                 FIELD_KLUB + " VARCHAR(50) " +
-=======
                 FIELD_KLUB + " VARCHAR(50), " +
->>>>>>> 017de022074710b01ffff2fa7b7e76ed7d96d811
                 ");";
         db.execSQL(query);
     }
